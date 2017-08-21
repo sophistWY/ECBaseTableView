@@ -15,8 +15,8 @@
 		D36F4F521EB9B46D00A74C32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D36F4F501EB9B46D00A74C32 /* LaunchScreen.storyboard */; };
 		D36F4F5D1EB9B46D00A74C32 /* ECBaseTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D36F4F5C1EB9B46D00A74C32 /* ECBaseTableViewTests.m */; };
 		D36F4F681EB9B46D00A74C32 /* ECBaseTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D36F4F671EB9B46D00A74C32 /* ECBaseTableViewUITests.m */; };
-		D37FFBBE1F0F5B7F00724D2F /* UITableView+BlockDeclare.m in Sources */ = {isa = PBXBuildFile; fileRef = D37FFBBB1F0F5B7F00724D2F /* UITableView+BlockDeclare.m */; };
-		D37FFBBF1F0F5B7F00724D2F /* UITableView+Simple.m in Sources */ = {isa = PBXBuildFile; fileRef = D37FFBBD1F0F5B7F00724D2F /* UITableView+Simple.m */; };
+		D37098F51F4A8DCC00AB00C6 /* UITableView+BlockDeclare.m in Sources */ = {isa = PBXBuildFile; fileRef = D37098F21F4A8DCC00AB00C6 /* UITableView+BlockDeclare.m */; };
+		D37098F61F4A8DCC00AB00C6 /* UITableView+Simple.m in Sources */ = {isa = PBXBuildFile; fileRef = D37098F41F4A8DCC00AB00C6 /* UITableView+Simple.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +53,10 @@
 		D36F4F631EB9B46D00A74C32 /* ECBaseTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECBaseTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D36F4F671EB9B46D00A74C32 /* ECBaseTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECBaseTableViewUITests.m; sourceTree = "<group>"; };
 		D36F4F691EB9B46D00A74C32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D37FFBBA1F0F5B7F00724D2F /* UITableView+BlockDeclare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+BlockDeclare.h"; sourceTree = "<group>"; };
-		D37FFBBB1F0F5B7F00724D2F /* UITableView+BlockDeclare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+BlockDeclare.m"; sourceTree = "<group>"; };
-		D37FFBBC1F0F5B7F00724D2F /* UITableView+Simple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Simple.h"; sourceTree = "<group>"; };
-		D37FFBBD1F0F5B7F00724D2F /* UITableView+Simple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Simple.m"; sourceTree = "<group>"; };
+		D37098F11F4A8DCC00AB00C6 /* UITableView+BlockDeclare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+BlockDeclare.h"; sourceTree = "<group>"; };
+		D37098F21F4A8DCC00AB00C6 /* UITableView+BlockDeclare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+BlockDeclare.m"; sourceTree = "<group>"; };
+		D37098F31F4A8DCC00AB00C6 /* UITableView+Simple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Simple.h"; sourceTree = "<group>"; };
+		D37098F41F4A8DCC00AB00C6 /* UITableView+Simple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Simple.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +87,7 @@
 		D36F4F361EB9B46D00A74C32 = {
 			isa = PBXGroup;
 			children = (
+				D37098F01F4A8DCC00AB00C6 /* TableViewCategory */,
 				D36F4F411EB9B46D00A74C32 /* ECBaseTableView */,
 				D36F4F5B1EB9B46D00A74C32 /* ECBaseTableViewTests */,
 				D36F4F661EB9B46D00A74C32 /* ECBaseTableViewUITests */,
@@ -107,7 +108,6 @@
 		D36F4F411EB9B46D00A74C32 /* ECBaseTableView */ = {
 			isa = PBXGroup;
 			children = (
-				D37FFBB91F0F5B5800724D2F /* Category */,
 				D36F4F451EB9B46D00A74C32 /* AppDelegate.h */,
 				D36F4F461EB9B46D00A74C32 /* AppDelegate.m */,
 				D36F4F481EB9B46D00A74C32 /* ViewController.h */,
@@ -147,15 +147,15 @@
 			path = ECBaseTableViewUITests;
 			sourceTree = "<group>";
 		};
-		D37FFBB91F0F5B5800724D2F /* Category */ = {
+		D37098F01F4A8DCC00AB00C6 /* TableViewCategory */ = {
 			isa = PBXGroup;
 			children = (
-				D37FFBBA1F0F5B7F00724D2F /* UITableView+BlockDeclare.h */,
-				D37FFBBB1F0F5B7F00724D2F /* UITableView+BlockDeclare.m */,
-				D37FFBBC1F0F5B7F00724D2F /* UITableView+Simple.h */,
-				D37FFBBD1F0F5B7F00724D2F /* UITableView+Simple.m */,
+				D37098F11F4A8DCC00AB00C6 /* UITableView+BlockDeclare.h */,
+				D37098F21F4A8DCC00AB00C6 /* UITableView+BlockDeclare.m */,
+				D37098F31F4A8DCC00AB00C6 /* UITableView+Simple.h */,
+				D37098F41F4A8DCC00AB00C6 /* UITableView+Simple.m */,
 			);
-			path = Category;
+			path = TableViewCategory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,10 +294,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D37FFBBE1F0F5B7F00724D2F /* UITableView+BlockDeclare.m in Sources */,
+				D37098F51F4A8DCC00AB00C6 /* UITableView+BlockDeclare.m in Sources */,
 				D36F4F4A1EB9B46D00A74C32 /* ViewController.m in Sources */,
 				D36F4F471EB9B46D00A74C32 /* AppDelegate.m in Sources */,
-				D37FFBBF1F0F5B7F00724D2F /* UITableView+Simple.m in Sources */,
+				D37098F61F4A8DCC00AB00C6 /* UITableView+Simple.m in Sources */,
 				D36F4F441EB9B46D00A74C32 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
